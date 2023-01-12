@@ -1,6 +1,6 @@
 {
   "canisters": {
-    "ep_can_1": {
+    "ep_can1": {
       "main": "src/ep_can1/main.mo",
       "type": "motoko"
     },
