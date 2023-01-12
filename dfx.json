@@ -1,0 +1,28 @@
+{
+  "canisters": {
+    "ep_can_1": {
+      "main": "src/ep_can1/main.mo",
+      "type": "motoko"
+    },
+    "enrollment_project_frontend": {
+      "dependencies": [
+        "enrollment_project_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/enrollment_project_frontend/src/index.html"
+      },
+      "source": [
+        "src/enrollment_project_frontend/assets",
+        "dist/enrollment_project_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "version": 1
+}
